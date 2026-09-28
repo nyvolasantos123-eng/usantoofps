@@ -1,0 +1,11 @@
+USANTOOSFPS — SITE FINALIZADO
+
+Para visualizar: abra index.html no navegador.
+Para publicar: envie index.html e a pasta assets juntos para a raiz do site.
+No Netlify, use a publicação manual do seu projeto existente e envie a pasta extraída.
+Não é necessário instalar dependências ou executar comandos.
+
+Incluído: abertura desktop e mobile, botões YouTube/Instagram, 999 FPS na arte, faixa de jogos contínua, planos e preços da versão v10, serviços, feedbacks, dúvidas e formulário WhatsApp.
+
+O formulário prepara a mensagem para o número já configurado no site. O visitante confirma o envio no WhatsApp.
+O número 999 FPS faz parte da arte promocional; não é uma medição ao vivo.
