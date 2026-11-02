@@ -35,24 +35,15 @@ nav{border-bottom:0}.section-top{border-top:0;padding-top:30px}.steps{border-bot
 #app{padding-bottom:12px}
 .hero{grid-template-columns:minmax(0,1.07fr) minmax(0,.93fr)}
 .phone-stage{display:grid;place-items:center;padding:20px;background:radial-gradient(ellipse,#21574655 0%,transparent 67%)}
-.phone{width:min(100%,270px);padding:9px 9px 0;background:#101618;border:2px solid #5a6863;border-radius:36px;box-shadow:0 24px 50px #0008,inset 0 0 0 3px #202927;color:#eff7f2;text-align:left}
-.phone-top{height:39px;padding:0 15px;display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:700;letter-spacing:-.4px}
-.camera{width:49px;height:12px;border-radius:12px;background:#030707}
-.profile-cover{height:146px;background:radial-gradient(ellipse at 50% 70%,#316444,#13221a 70%);display:grid;place-items:center;overflow:hidden;border-radius:15px 15px 0 0}
-.profile-cover img{display:block;width:98px;height:98px;border-radius:50%;border:3px solid #84d996}
-.profile-body{padding:18px 16px 14px;background:#17201c;border-radius:0 0 15px 15px}
-.profile-body small{font-size:9px;letter-spacing:1.8px;color:#b2cbbd;font-weight:800}
-.profile-body h3{font-size:26px;margin:4px 0 0;line-height:1.1}
-.profile-body strong{font-size:13px;color:#a2f4b8}
-.hero .profile-body p{font-size:13px;line-height:1.5;margin:12px 0 16px;color:#c4d4c9}
-.profile-link,.profile-body button{display:block;width:100%;text-align:center;border-radius:9px;font-size:13px;font-weight:700}
-.profile-link{padding:10px;background:#bcf697;color:#102718}
-.profile-body button{border:0;padding:8px;background:transparent;color:#e6fae9}
-.profile-body button[hidden]{display:none}
-.phone-home{margin:8px auto;width:62px;height:3px;background:#8b9b92;border-radius:9px}
-.with-feed .profile-cover{height:280px;display:block}.profile-cover iframe{width:100%;height:100%;border:0;background:white}
-.with-feed .profile-body small,.with-feed .profile-body h3,.with-feed .profile-body p{display:none}
-.with-feed .profile-link{margin-top:8px}
+.phone{width:min(100%,350px);padding:7px 7px 0;background:#101618;border:2px solid #5a6863;border-radius:34px;box-shadow:0 24px 50px #0008,inset 0 0 0 3px #202927;color:#eff7f2;text-align:left;overflow:hidden}
+.phone-top{position:relative;height:31px;padding:0 14px;display:flex;align-items:center;font-size:11px;font-weight:700;letter-spacing:-.2px}
+.camera{position:absolute;left:50%;transform:translateX(-50%);width:46px;height:10px;border-radius:12px;background:#030707}
+.phone-screen{position:relative;overflow:hidden;border-radius:16px;background:#0c1013}
+.phone-screen img{display:block;width:100%;height:auto}
+.profile-link{position:absolute;left:3.5%;top:37.1%;transform:translateY(-50%);width:29%;min-height:30px;display:grid;place-items:center;isolation:isolate;color:#d4f8e0;font-size:clamp(9px,.85vw,11px);font-weight:700;white-space:nowrap}
+.profile-link::before{content:"";position:absolute;z-index:-1;inset:3px 0;border-radius:6px;background:#223c32;border:1px solid #466b57}
+.profile-link:hover::before,.profile-link:focus-visible::before{background:#30523f}
+.phone-home{margin:7px auto;width:64px;height:3px;background:#8b9b92;border-radius:9px}
 .free{width:min(1100px,calc(100% - 48px));display:grid;justify-items:center;justify-content:center;text-align:center;margin:12px auto 60px;gap:12px;background:radial-gradient(ellipse at 50% 0%,#254a31,#101c1a 80%)}
 .free p,.free .eyebrow{margin-inline:auto}.free .btn{max-width:100%;white-space:normal}
 .wizard{width:min(1100px,calc(100% - 48px))}

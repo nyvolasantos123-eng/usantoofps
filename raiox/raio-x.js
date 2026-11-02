@@ -16,15 +16,6 @@ root.addEventListener('click', event => {
     root.getElementById(link.hash.slice(1))?.scrollIntoView({block:'start'});
   }
 });
-root.getElementById('loadInstagram').addEventListener('click', event => {
-  const frame = document.createElement('iframe');
-  frame.title = 'Perfil de @usantoosfps no Instagram';
-  frame.src = 'https://www.instagram.com/usantoosfps/embed/';
-  root.querySelector('.profile-cover').replaceChildren(frame);
-  root.querySelector('.phone').classList.add('with-feed');
-  event.currentTarget.hidden = true;
-});
-
 const WHATSAPP_NUMBER='5511951422087'; // Canal oficial configurado no site usantoosfps.com
 const cpus=['AMD Ryzen 3 3200G','AMD Ryzen 3 4100','AMD Ryzen 5 4500','AMD Ryzen 5 4600G','AMD Ryzen 5 5500','AMD Ryzen 5 5600','AMD Ryzen 5 5600G','AMD Ryzen 5 5600X','AMD Ryzen 5 5700G','AMD Ryzen 7 5700X','AMD Ryzen 7 5700X3D','AMD Ryzen 7 5800X','AMD Ryzen 7 5800X3D','AMD Ryzen 5 7500F','AMD Ryzen 5 7600','AMD Ryzen 5 7600X','AMD Ryzen 7 7700','AMD Ryzen 7 7800X3D','AMD Ryzen 7 9700X','AMD Ryzen 7 9800X3D','AMD Ryzen 9 5900X','AMD Ryzen 9 7900X','AMD Ryzen 9 9950X','Intel Core i3-10100F','Intel Core i3-12100F','Intel Core i5-10400F','Intel Core i5-11400F','Intel Core i5-12400F','Intel Core i5-12600K','Intel Core i5-13400F','Intel Core i5-13600K','Intel Core i5-14400F','Intel Core i5-14600K','Intel Core i7-10700K','Intel Core i7-12700K','Intel Core i7-13700K','Intel Core i7-14700K','Intel Core i9-12900K','Intel Core i9-13900K','Intel Core i9-14900K','Intel Core Ultra 5 245K','Intel Core Ultra 7 265K','Intel Core Ultra 9 285K'];
 const gpus=['Gráficos integrados / Sem placa dedicada','AMD Radeon RX 550','AMD Radeon RX 580','AMD Radeon RX 6600','AMD Radeon RX 6650 XT','AMD Radeon RX 6700 XT','AMD Radeon RX 6750 XT','AMD Radeon RX 7600','AMD Radeon RX 7700 XT','AMD Radeon RX 7800 XT','AMD Radeon RX 7900 XTX','NVIDIA GTX 1050 Ti','NVIDIA GTX 1060','NVIDIA GTX 1650','NVIDIA GTX 1660 Super','NVIDIA RTX 2060','NVIDIA RTX 3060','NVIDIA RTX 3060 Ti','NVIDIA RTX 3070','NVIDIA RTX 3080','NVIDIA RTX 4060','NVIDIA RTX 4060 Ti','NVIDIA RTX 4070','NVIDIA RTX 4070 Super','NVIDIA RTX 4070 Ti Super','NVIDIA RTX 4080 Super','NVIDIA RTX 4090','NVIDIA RTX 5060','NVIDIA RTX 5070','NVIDIA RTX 5080','NVIDIA RTX 5090','Intel Arc A580','Intel Arc A750','Intel Arc B580'];
